@@ -13,6 +13,10 @@
 		652A2DB720F7FFA100BE308C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652A2DB520F7FFA100BE308C /* Main.storyboard */; };
 		652A2DB920F7FFA200BE308C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652A2DB820F7FFA200BE308C /* Assets.xcassets */; };
 		652A2DBC20F7FFA200BE308C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652A2DBA20F7FFA200BE308C /* LaunchScreen.storyboard */; };
+		65CD1FC020F8C34F0096C001 /* plantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CD1FBF20F8C34F0096C001 /* plantTableViewController.swift */; };
+		65CD1FC220F9835D0096C001 /* no1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CD1FC120F9835D0096C001 /* no1ViewController.swift */; };
+		65F5838920F9E88D00675954 /* firsttabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5838820F9E88D00675954 /* firsttabbarViewController.swift */; };
+		65F5838B20F9ECDC00675954 /* firstNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5838A20F9ECDC00675954 /* firstNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		652A2DB820F7FFA200BE308C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		652A2DBB20F7FFA200BE308C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		652A2DBD20F7FFA200BE308C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65CD1FBF20F8C34F0096C001 /* plantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plantTableViewController.swift; sourceTree = "<group>"; };
+		65CD1FC120F9835D0096C001 /* no1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = no1ViewController.swift; sourceTree = "<group>"; };
+		65F5838820F9E88D00675954 /* firsttabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firsttabbarViewController.swift; sourceTree = "<group>"; };
+		65F5838A20F9ECDC00675954 /* firstNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				652A2DAF20F7FFA100BE308C /* AppDelegate.swift */,
 				652A2DB120F7FFA100BE308C /* FirstViewController.swift */,
 				652A2DB320F7FFA100BE308C /* SecondViewController.swift */,
+				65CD1FBF20F8C34F0096C001 /* plantTableViewController.swift */,
+				65F5838820F9E88D00675954 /* firsttabbarViewController.swift */,
+				65F5838A20F9ECDC00675954 /* firstNavigationController.swift */,
+				65CD1FC120F9835D0096C001 /* no1ViewController.swift */,
 				652A2DB520F7FFA100BE308C /* Main.storyboard */,
 				652A2DB820F7FFA200BE308C /* Assets.xcassets */,
 				652A2DBA20F7FFA200BE308C /* LaunchScreen.storyboard */,
@@ -140,7 +152,11 @@
 			files = (
 				652A2DB420F7FFA100BE308C /* SecondViewController.swift in Sources */,
 				652A2DB020F7FFA100BE308C /* AppDelegate.swift in Sources */,
+				65CD1FC220F9835D0096C001 /* no1ViewController.swift in Sources */,
 				652A2DB220F7FFA100BE308C /* FirstViewController.swift in Sources */,
+				65CD1FC020F8C34F0096C001 /* plantTableViewController.swift in Sources */,
+				65F5838B20F9ECDC00675954 /* firstNavigationController.swift in Sources */,
+				65F5838920F9E88D00675954 /* firsttabbarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

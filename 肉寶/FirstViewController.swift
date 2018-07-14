@@ -8,13 +8,19 @@
 
 import UIKit
 
+
+
 class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let image = UIImage()
+        self.navigationController?.navigationBar.setBackgroundImage(image, for: .default)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    
 
 }
+
 
